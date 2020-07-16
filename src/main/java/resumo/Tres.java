@@ -1,6 +1,6 @@
 package main.java.resumo;
 
-public class tres {
+public class Tres {
     public static void main(String args[]) {
         Integer vida = 100;
         final Integer SEM_VIDA = 0;
@@ -9,8 +9,7 @@ public class tres {
         final String GOLPE_NA_BARRIGA = "Golpe na barriga";
         String meuGolpe = "Golpe na perna";
 
-        while (vida > SEM_VIDA)
-        {
+        while (vida > SEM_VIDA) {
             System.out.println("Vida atual " + vida);
 
             if (meuGolpe == GOLPE_NA_PERNA) {
@@ -29,7 +28,7 @@ public class tres {
             System.out.println("Vida apos golpe " + vida);
 
         }
-            System.out.println("Personagem morreu.");
+        System.out.println("Personagem morreu.");
     }
 }
 
